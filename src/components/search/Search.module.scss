@@ -1,0 +1,10 @@
+.search{
+  @apply relative border-solid border-[1px] rounded-[2px] border-secondary pl-3 pr-8 h-10;
+  input{
+    @apply w-full h-full outline-none placeholder:text-s
+  }
+}
+
+.icon{
+  @apply absolute right-1 top-2 bottom-0
+}

@@ -1,0 +1,28 @@
+.header{
+  @apply shadow-default-s py-4 bg-surface;
+}
+
+.row{
+  @apply container flex justify-between items-center;
+}
+
+.btn{
+  @apply bg-secondary p-2 rounded-[4px] flex text-on-secondary gap-3 text-s;
+}
+
+.menu{
+  @apply flex items-center justify-center gap-6;
+  &Item{
+    @apply flex flex-col items-center justify-center cursor-pointer;
+    span{
+      @apply text-xs;
+    }
+  }
+}
+
+.user{
+  @apply flex items-center justify-center cursor-pointer gap-2;
+  span{
+    @apply text-s;
+  }
+}

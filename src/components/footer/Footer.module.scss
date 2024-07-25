@@ -1,0 +1,20 @@
+.footer{
+  @apply bg-[#F9F4E2] py-6;
+}
+.row{
+  @apply container flex justify-between items-center;
+}
+
+.menu{
+  @apply flex justify-between items-center gap-10;
+  a{
+    @apply text-xs;
+  }
+}
+.icons{
+  @apply flex justify-between items-center gap-5;
+}
+
+.phone{
+  @apply flex gap-2 text-s text-on-surface;
+}

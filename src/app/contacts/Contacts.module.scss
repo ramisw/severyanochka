@@ -1,0 +1,14 @@
+.title{
+  @apply text-2xl font-bold;
+}
+
+.contacts{
+  @apply container;
+}
+
+.row{
+  @apply flex justify-around items-center;
+  div{
+    @apply flex flex-col;
+  }
+}
